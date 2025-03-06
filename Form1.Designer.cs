@@ -50,9 +50,8 @@
             this.OutputLbl.Name = "OutputLbl";
             this.OutputLbl.Size = new System.Drawing.Size(134, 43);
             this.OutputLbl.TabIndex = 0;
-            this.OutputLbl.Text = "Output";
-            this.OutputLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-
+            this.OutputLbl.Text = "";
+            this.OutputLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btn1
             // 
@@ -92,6 +91,7 @@
             this.btn2.TabIndex = 4;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn7
             // 
